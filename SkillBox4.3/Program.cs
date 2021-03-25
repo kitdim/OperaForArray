@@ -278,7 +278,7 @@ namespace SkillBox4._3
                         Line();
                         OutputArrayMulti(OneArraySelection,TwoArraySelection, stroka, stolbec);
 
-                        Console.Write("Хочешь посмотреть другие пункты да/нет ? "); var otvet = Console.ReadLine();
+                        Console.Write("\nХочешь посмотреть другие пункты да/нет ? "); var otvet = Console.ReadLine();
                         if (otvet == "да") continue;
                         else if (otvet == "нет") break;
                         else { Error(); Pause(); break; }
